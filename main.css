@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: black;
+    background-color: red;
+    transition: background-color 2s ease-in-out;
+}
+h1:hover { background-color: green; }
+
+p {
+    text-align: center;
+    color: green
+}
+
+ol {
+    color: brown; /*#FFDE00 is yellow*/
+    width: 250px;
+    background-color: lightgreen;
+}
+
+a { transition: color 0.001s ease-in-out; }
+a:hover { color: lightblue; }
+
+aside {
+    display: inline;
+    width: 120px;
+    float: right;
+    border: 2px solid red;
+    padding: 0 5px 0 5px;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
+footer a {
+    display: inline;
+    margin: 0 7px 0 7px;
+}
