@@ -1,0 +1,46 @@
+/* line 1, birds.sass */
+h1 {
+  text-align: center;
+  color: green;
+  background-color: blue;
+  transition: background-color 1s ease-in-out; }
+  /* line 6, birds.sass */
+  h1:hover {
+    background-color: green; }
+
+/* line 9, birds.sass */
+p {
+  text-align: center;
+  color: green; }
+
+/* line 13, birds.sass */
+ol {
+  color: brown;
+  width: 250px;
+  background-color: lightgreen; }
+
+/* line 18, birds.sass */
+a {
+  transition: color 0.001s ease-in-out; }
+  /* line 20, birds.sass */
+  a:hover {
+    color: #4d4dff; }
+
+/* line 23, birds.sass */
+aside {
+  display: inline;
+  width: 120px;
+  float: right;
+  border: 2px solid red;
+  padding: 0 5px 0 5px; }
+
+/* line 30, birds.sass */
+footer {
+  background-color: gray;
+  text-align: center; }
+  /* line 33, birds.sass */
+  footer a {
+    display: inline;
+    margin: 0 7px 0 7px; }
+
+/*# sourceMappingURL=birds.css.map */
