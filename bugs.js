@@ -28,5 +28,20 @@ $(document).ready(function() {
 	$(this).closest('.white-tailed-skimmer')
 	    .find('.whi-answer').slideToggle();
     });
+
+    $('.western-widow').on('click', 'button', function() {
+	$(this).closest('.western-widow')
+	    .find('.wes-answer').slideToggle();
+    });
+
+    $('.american-ruby-spot').on('click', 'button', function() {
+	$(this).closest('.american-ruby-spot')
+	    .find('.ame-answer').slideToggle();
+    });
+
+    $('.blackwing').on('click', 'button', function() {
+	$(this).closest('.blackwing')
+	    .find('.bla-answer').slideToggle();
+    });
     
 });

@@ -6,4 +6,8 @@ img {
 }
 
 .sil-answer, .sle-answer, .bur-answer,
-.clu-answer, .bid-answer, .whi-answer { display: none; }
+.clu-answer, .bid-answer, .whi-answer,
+.wes-answer, .ame-answer, .bla-answer {
+    display: none;
+    font-size: 16px;
+ }
