@@ -18,4 +18,15 @@ $(document).ready(function() {
 	$(this).closest('.clubtail')
 	    .find('.clu-answer').slideToggle();
     });
+
+    $('.biddie').on('click', 'button', function() {
+	$(this).closest('.biddie')
+	    .find('.bid-answer').slideToggle();
+    });
+
+    $('.white-tailed-skimmer').on('click', 'button', function() {
+	$(this).closest('.white-tailed-skimmer')
+	    .find('.whi-answer').slideToggle();
+    });
+    
 });
